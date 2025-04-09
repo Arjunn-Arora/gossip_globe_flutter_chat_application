@@ -47,29 +47,29 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyANgypPMNVOt8z-RPaAtbetT_pRQown_fw',
-    appId: '1:1058860262228:web:13f37c7c5e7a503fd89ec1',
-    messagingSenderId: '1058860262228',
-    projectId: 'gossipglobe-d827d',
-    authDomain: 'gossipglobe-d827d.firebaseapp.com',
-    storageBucket: 'gossipglobe-d827d.appspot.com',
-    measurementId: 'G-97MQH4ZLPS',
+    apiKey: 'yourAPIKey',
+    appId: 'YourAppId',
+    messagingSenderId: 'YourMessagingId',
+    projectId: 'ProjectId',
+    authDomain: 'AuthDomain',
+    storageBucket: 'YourStorageBucket',
+    measurementId: 'MeasurementId',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyC1h5lSaCMFJRx8BvRxaRNsNyGolqU41WA',
-    appId: '1:1058860262228:android:9429bbf5e35bc7a4d89ec1',
-    messagingSenderId: '1058860262228',
-    projectId: 'gossipglobe-d827d',
-    storageBucket: 'gossipglobe-d827d.appspot.com',
+    apiKey: 'yourAPIKey',
+    appId: 'YourAppId',
+    messagingSenderId: 'YourMessagingId',
+    projectId: 'ProjectId',
+    storageBucket: 'YourStorageBucket',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyB0xJ_9XIB71vxLVVLvm2A9Xb0wx5dGU_o',
-    appId: '1:1058860262228:ios:dc1bc06dd2636b30d89ec1',
-    messagingSenderId: '1058860262228',
-    projectId: 'gossipglobe-d827d',
-    storageBucket: 'gossipglobe-d827d.appspot.com',
-    iosBundleId: 'com.arjun.gossipglobe',
+    apiKey: 'yourAPIKey',
+    appId: 'YourAppId',
+    messagingSenderId: 'YourMessagingId',
+    projectId: 'ProjectId',
+    storageBucket: 'YourStorageBucket',
+    iosBundleId: 'YourBundleId',
   );
 }
