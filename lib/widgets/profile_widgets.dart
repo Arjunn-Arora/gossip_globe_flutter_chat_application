@@ -88,7 +88,7 @@ class FriendsButton extends StatelessWidget {
     Widget buildFriendsButton() {
     if (currentUser.uid == userModel.uid && userModel.friendsUIDs.isNotEmpty) {
       return SizedBox(
-        width: MediaQuery.of(context).size.width * 0.4,
+        width: MediaQuery.of(context).size.width * 0.45,
         child: ElevatedButton(
           onPressed: () {
             //show friends
@@ -107,7 +107,7 @@ class FriendsButton extends StatelessWidget {
       if (currentUser.uid != userModel.uid) {
         if (userModel.friendRequestsUIDs.contains(currentUser.uid)) {
           return SizedBox(
-            width: MediaQuery.of(context).size.width * 0.45,
+            width: MediaQuery.of(context).size.width * 0.6,
             child: ElevatedButton(
               onPressed: () async {
                 await context
@@ -122,7 +122,7 @@ class FriendsButton extends StatelessWidget {
               child: Text(
                 'Cancel Friend request'.toUpperCase(),
                 style: GoogleFonts.openSans(
-                  fontSize: 16,
+                  fontSize: 14,
                   fontWeight: FontWeight.w500,
                 ),
               ),
@@ -157,7 +157,7 @@ class FriendsButton extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               SizedBox(
-                width: MediaQuery.of(context).size.width * 0.42,
+                width: MediaQuery.of(context).size.width * 0.35,
                 child: ElevatedButton(
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Theme.of(context).primaryColor,
@@ -214,7 +214,7 @@ class FriendsButton extends StatelessWidget {
               ),
               const SizedBox(width: 10),
               SizedBox(
-                width: MediaQuery.of(context).size.width * 0.4,
+                width: MediaQuery.of(context).size.width * 0.25,
                 child: ElevatedButton(
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Theme.of(context).primaryColor,
